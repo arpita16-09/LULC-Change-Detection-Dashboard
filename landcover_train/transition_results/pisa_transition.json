@@ -1,0 +1,254 @@
+{
+  "aoi": "pisa",
+  "split": "test",
+  "shape": [
+    776,
+    718
+  ],
+  "n_total_pixels": 557168,
+  "n_changed_pixels": 5516,
+  "change_pct": 0.99,
+  "selection_pixels": 9130,
+  "used_oscd_change_mask": true,
+  "transition_matrix": [
+    [
+      992,
+      34,
+      511,
+      91,
+      702,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1225,
+      9,
+      1391,
+      207,
+      1070,
+      0
+    ],
+    [
+      120,
+      2,
+      49,
+      10,
+      91,
+      0
+    ],
+    [
+      535,
+      0,
+      302,
+      548,
+      1221,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      11,
+      0
+    ]
+  ],
+  "transitions": [
+    {
+      "from": "Urban",
+      "to": "Other",
+      "from_id": 2,
+      "to_id": 0,
+      "pixels": 1225,
+      "pct_of_image": 0.2199,
+      "pct_of_changed": 22.2081
+    },
+    {
+      "from": "Urban",
+      "to": "Agriculture",
+      "from_id": 2,
+      "to_id": 4,
+      "pixels": 1070,
+      "pct_of_image": 0.192,
+      "pct_of_changed": 19.3981
+    },
+    {
+      "from": "Other",
+      "to": "Agriculture",
+      "from_id": 0,
+      "to_id": 4,
+      "pixels": 702,
+      "pct_of_image": 0.126,
+      "pct_of_changed": 12.7266
+    },
+    {
+      "from": "Agriculture",
+      "to": "Forest",
+      "from_id": 4,
+      "to_id": 3,
+      "pixels": 548,
+      "pct_of_image": 0.0984,
+      "pct_of_changed": 9.9347
+    },
+    {
+      "from": "Agriculture",
+      "to": "Other",
+      "from_id": 4,
+      "to_id": 0,
+      "pixels": 535,
+      "pct_of_image": 0.096,
+      "pct_of_changed": 9.6991
+    },
+    {
+      "from": "Other",
+      "to": "Urban",
+      "from_id": 0,
+      "to_id": 2,
+      "pixels": 511,
+      "pct_of_image": 0.0917,
+      "pct_of_changed": 9.264
+    },
+    {
+      "from": "Agriculture",
+      "to": "Urban",
+      "from_id": 4,
+      "to_id": 2,
+      "pixels": 302,
+      "pct_of_image": 0.0542,
+      "pct_of_changed": 5.475
+    },
+    {
+      "from": "Urban",
+      "to": "Forest",
+      "from_id": 2,
+      "to_id": 3,
+      "pixels": 207,
+      "pct_of_image": 0.0372,
+      "pct_of_changed": 3.7527
+    },
+    {
+      "from": "Forest",
+      "to": "Other",
+      "from_id": 3,
+      "to_id": 0,
+      "pixels": 120,
+      "pct_of_image": 0.0215,
+      "pct_of_changed": 2.1755
+    },
+    {
+      "from": "Other",
+      "to": "Forest",
+      "from_id": 0,
+      "to_id": 3,
+      "pixels": 91,
+      "pct_of_image": 0.0163,
+      "pct_of_changed": 1.6497
+    },
+    {
+      "from": "Forest",
+      "to": "Agriculture",
+      "from_id": 3,
+      "to_id": 4,
+      "pixels": 91,
+      "pct_of_image": 0.0163,
+      "pct_of_changed": 1.6497
+    },
+    {
+      "from": "Forest",
+      "to": "Urban",
+      "from_id": 3,
+      "to_id": 2,
+      "pixels": 49,
+      "pct_of_image": 0.0088,
+      "pct_of_changed": 0.8883
+    },
+    {
+      "from": "Other",
+      "to": "Water",
+      "from_id": 0,
+      "to_id": 1,
+      "pixels": 34,
+      "pct_of_image": 0.0061,
+      "pct_of_changed": 0.6164
+    },
+    {
+      "from": "Barren",
+      "to": "Agriculture",
+      "from_id": 5,
+      "to_id": 4,
+      "pixels": 11,
+      "pct_of_image": 0.002,
+      "pct_of_changed": 0.1994
+    },
+    {
+      "from": "Urban",
+      "to": "Water",
+      "from_id": 2,
+      "to_id": 1,
+      "pixels": 9,
+      "pct_of_image": 0.0016,
+      "pct_of_changed": 0.1632
+    },
+    {
+      "from": "Barren",
+      "to": "Other",
+      "from_id": 5,
+      "to_id": 0,
+      "pixels": 8,
+      "pct_of_image": 0.0014,
+      "pct_of_changed": 0.145
+    },
+    {
+      "from": "Forest",
+      "to": "Water",
+      "from_id": 3,
+      "to_id": 1,
+      "pixels": 2,
+      "pct_of_image": 0.0004,
+      "pct_of_changed": 0.0363
+    },
+    {
+      "from": "Water",
+      "to": "Other",
+      "from_id": 1,
+      "to_id": 0,
+      "pixels": 1,
+      "pct_of_image": 0.0002,
+      "pct_of_changed": 0.0181
+    }
+  ],
+  "summary": {
+    "forest_to_urban": 0.0088,
+    "agriculture_to_urban": 0.0542,
+    "water_to_urban": 0.0,
+    "barren_to_urban": 0.0,
+    "forest_to_agriculture": 0.0163,
+    "agriculture_to_forest": 0.0984,
+    "any_to_urban": 0.1547,
+    "urban_to_any": 0.4507,
+    "vegetation_loss": 0.1806
+  },
+  "t1_fractions": {
+    "Other": 7.28,
+    "Water": 1.031,
+    "Urban": 16.068,
+    "Forest": 20.001,
+    "Agriculture": 55.586,
+    "Barren": 0.034
+  },
+  "t2_fractions": {
+    "Other": 9.054,
+    "Water": 1.547,
+    "Urban": 10.984,
+    "Forest": 27.587,
+    "Agriculture": 50.828,
+    "Barren": 0.0
+  }
+}

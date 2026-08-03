@@ -1,0 +1,17 @@
+{
+  "checkpoint": "/workspace/landcover_train/train/resunet_oscd_enhanced_best.pt",
+  "epoch": 39,
+  "trained_val_miou": 0.7550555609235747,
+  "pixel_acc": 0.9581998284209299,
+  "mean_iou": 0.7548250321811314,
+  "per_class_iou": {
+    "Other": 0.8005148381623788,
+    "Water": 0.8986650485436893,
+    "Urban": 0.9485817377926066,
+    "Forest": 0.9094782047268744,
+    "Agriculture": 0.9399643321152078,
+    "Barren": 0.031746031746031744
+  },
+  "mask_dir": "/workspace/landcover_train/enhanced/test/masks",
+  "tta": true
+}

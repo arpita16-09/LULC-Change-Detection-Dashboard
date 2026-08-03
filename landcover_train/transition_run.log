@@ -1,0 +1,7 @@
+Loaded epoch=39 val_mIoU=0.7550555609235747
+bordeaux       change=0.51%  top={'from': 'Urban', 'to': 'Other', 'from_id': 2, 'to_id': 0, 'pixels': 363, 'pct_of_image': 0.1523, 'pct_of_changed': 29.5844}
+montpellier    change=2.97%  top={'from': 'Urban', 'to': 'Other', 'from_id': 2, 'to_id': 0, 'pixels': 2070, 'pct_of_image': 1.0774, 'pct_of_changed': 36.2712}
+nantes         change=0.64%  top={'from': 'Urban', 'to': 'Other', 'from_id': 2, 'to_id': 0, 'pixels': 684, 'pct_of_image': 0.2251, 'pct_of_changed': 35.0051}
+pisa           change=0.99%  top={'from': 'Urban', 'to': 'Other', 'from_id': 2, 'to_id': 0, 'pixels': 1225, 'pct_of_image': 0.2199, 'pct_of_changed': 22.2081}
+valencia       change=0.26%  top={'from': 'Urban', 'to': 'Other', 'from_id': 2, 'to_id': 0, 'pixels': 211, 'pct_of_image': 0.0968, 'pct_of_changed': 37.9496}
+Wrote /workspace/landcover_train/transition_results

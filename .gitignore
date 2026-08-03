@@ -1,0 +1,14 @@
+﻿venv/
+backend/venv/
+__pycache__/
+*.pyc
+node_modules/
+lulc-dashboard/node_modules/
+dist/
+.vite/
+backend/uploads/
+.env
+.vscode/
+landcover_train/enhanced/train/images_multiband_npy/
+landcover_train/enhanced/test/images_multiband_npy/
+landcover_train/enhanced/*/images_rgb/

@@ -1,0 +1,56 @@
+{
+  "channels": [
+    "B04",
+    "B03",
+    "B02",
+    "B08",
+    "B11",
+    "B12",
+    "NDVI",
+    "NDWI",
+    "NDBI",
+    "BSI"
+  ],
+  "n_channels": 10,
+  "ignore_index": 255,
+  "source_images": "/workspace/oscd_images/Onera Satellite Change Detection dataset - Images",
+  "change_labels": [
+    "/workspace/oscd_labels/Onera Satellite Change Detection dataset - Train Labels",
+    "/workspace/oscd_labels/Onera Satellite Change Detection dataset - Test Labels"
+  ],
+  "stats": {
+    "ignored_pixels": 3070443,
+    "total_pixels": 19191028
+  },
+  "splits": {
+    "train": [
+      "abudhabi",
+      "aguasclaras",
+      "beihai",
+      "beirut",
+      "bercy",
+      "brasilia",
+      "chongqing",
+      "cupertino",
+      "dubai",
+      "hongkong",
+      "lasvegas",
+      "milano",
+      "mumbai",
+      "norcia",
+      "paris",
+      "rennes",
+      "rio",
+      "saclay_e",
+      "saclay_w"
+    ],
+    "test": [
+      "bordeaux",
+      "montpellier",
+      "nantes",
+      "pisa",
+      "valencia"
+    ]
+  },
+  "notes": "Features rebuilt from OSCD imgs_*_rect. Pseudo-labels regenerated with SWIR2-aware rules; no-change disagreements set to ignore_index=255."
+}

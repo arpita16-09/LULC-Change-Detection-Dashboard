@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "test_fraction_requested": 0.2,
+  "n_aois_total": 24,
+  "n_train_aois": 19,
+  "n_test_aois": 5,
+  "train_aois": [
+    "abudhabi",
+    "aguasclaras",
+    "beihai",
+    "beirut",
+    "bercy",
+    "brasilia",
+    "chongqing",
+    "cupertino",
+    "dubai",
+    "hongkong",
+    "lasvegas",
+    "milano",
+    "mumbai",
+    "norcia",
+    "paris",
+    "rennes",
+    "rio",
+    "saclay_e",
+    "saclay_w"
+  ],
+  "test_aois": [
+    "bordeaux",
+    "montpellier",
+    "nantes",
+    "pisa",
+    "valencia"
+  ],
+  "note": "Split is grouped by AOI (not by individual t1/t2 sample) to avoid leakage, per README recommendation, since t1/t2 of the same AOI are highly similar scenes."
+}

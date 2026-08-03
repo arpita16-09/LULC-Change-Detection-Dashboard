@@ -1,0 +1,103 @@
+Device: cpu
+Train AOIs ['hongkong', 'brasilia', 'rennes', 'saclay_e', 'chongqing', 'mumbai', 'rio', 'lasvegas', 'aguasclaras', 'milano', 'beihai', 'saclay_w', 'cupertino', 'dubai', 'abudhabi', 'beirut']
+Val AOIs ['paris', 'norcia', 'bercy']
+Holdout test AOIs ['bordeaux', 'montpellier', 'nantes', 'pisa', 'valencia']
+counts {'Other': 1997882, 'Water': 1002764, 'Urban': 3728215, 'Forest': 1024354, 'Agriculture': 3165173, 'Barren': 16804}
+weights {'Other': 0.667, 'Water': 0.667, 'Urban': 0.667, 'Forest': 0.667, 'Agriculture': 0.667, 'Barren': 2.667}
+Epoch 01/40 | train 0.396/0.674 | val 0.255/0.594
+  per-class {'Other': '0.506', 'Water': '0.092', 'Urban': '0.386', 'Forest': '0.000', 'Agriculture': '0.544', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 02/40 | train 0.567/0.822 | val 0.548/0.782
+  per-class {'Other': '0.547', 'Water': '0.459', 'Urban': '0.615', 'Forest': '0.855', 'Agriculture': '0.814', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 03/40 | train 0.564/0.816 | val 0.602/0.849
+  per-class {'Other': '0.727', 'Water': '0.678', 'Urban': '0.557', 'Forest': '0.818', 'Agriculture': '0.829', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 04/40 | train 0.630/0.861 | val 0.612/0.854
+  per-class {'Other': '0.716', 'Water': '0.638', 'Urban': '0.637', 'Forest': '0.841', 'Agriculture': '0.831', 'Barren': '0.010'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 05/40 | train 0.629/0.852 | val 0.660/0.894
+  per-class {'Other': '0.812', 'Water': '0.749', 'Urban': '0.674', 'Forest': '0.866', 'Agriculture': '0.858', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 06/40 | train 0.647/0.873 | val 0.661/0.893
+  per-class {'Other': '0.791', 'Water': '0.779', 'Urban': '0.633', 'Forest': '0.892', 'Agriculture': '0.873', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 07/40 | train 0.682/0.898 | val 0.708/0.926
+  per-class {'Other': '0.871', 'Water': '0.805', 'Urban': '0.780', 'Forest': '0.884', 'Agriculture': '0.899', 'Barren': '0.010'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 08/40 | train 0.678/0.895 | val 0.683/0.908
+  per-class {'Other': '0.846', 'Water': '0.780', 'Urban': '0.707', 'Forest': '0.903', 'Agriculture': '0.862', 'Barren': '0.000'}
+Epoch 09/40 | train 0.676/0.898 | val 0.698/0.923
+  per-class {'Other': '0.887', 'Water': '0.814', 'Urban': '0.783', 'Forest': '0.822', 'Agriculture': '0.882', 'Barren': '0.000'}
+Epoch 10/40 | train 0.671/0.895 | val 0.710/0.927
+  per-class {'Other': '0.876', 'Water': '0.816', 'Urban': '0.794', 'Forest': '0.888', 'Agriculture': '0.887', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 11/40 | train 0.687/0.901 | val 0.709/0.925
+  per-class {'Other': '0.863', 'Water': '0.834', 'Urban': '0.764', 'Forest': '0.904', 'Agriculture': '0.889', 'Barren': '0.000'}
+Epoch 12/40 | train 0.672/0.896 | val 0.685/0.910
+  per-class {'Other': '0.824', 'Water': '0.823', 'Urban': '0.706', 'Forest': '0.869', 'Agriculture': '0.888', 'Barren': '0.000'}
+Epoch 13/40 | train 0.687/0.899 | val 0.679/0.906
+  per-class {'Other': '0.815', 'Water': '0.787', 'Urban': '0.698', 'Forest': '0.885', 'Agriculture': '0.889', 'Barren': '0.000'}
+Epoch 14/40 | train 0.689/0.902 | val 0.722/0.935
+  per-class {'Other': '0.885', 'Water': '0.825', 'Urban': '0.778', 'Forest': '0.923', 'Agriculture': '0.912', 'Barren': '0.009'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 15/40 | train 0.702/0.909 | val 0.654/0.888
+  per-class {'Other': '0.774', 'Water': '0.673', 'Urban': '0.692', 'Forest': '0.896', 'Agriculture': '0.891', 'Barren': '0.000'}
+Epoch 16/40 | train 0.698/0.908 | val 0.713/0.928
+  per-class {'Other': '0.858', 'Water': '0.798', 'Urban': '0.764', 'Forest': '0.939', 'Agriculture': '0.913', 'Barren': '0.007'}
+Epoch 17/40 | train 0.706/0.917 | val 0.714/0.930
+  per-class {'Other': '0.867', 'Water': '0.824', 'Urban': '0.759', 'Forest': '0.925', 'Agriculture': '0.911', 'Barren': '0.000'}
+Epoch 18/40 | train 0.703/0.914 | val 0.719/0.932
+  per-class {'Other': '0.867', 'Water': '0.803', 'Urban': '0.807', 'Forest': '0.923', 'Agriculture': '0.916', 'Barren': '0.000'}
+Epoch 19/40 | train 0.711/0.920 | val 0.671/0.901
+  per-class {'Other': '0.846', 'Water': '0.748', 'Urban': '0.720', 'Forest': '0.863', 'Agriculture': '0.849', 'Barren': '0.000'}
+Epoch 20/40 | train 0.701/0.911 | val 0.688/0.913
+  per-class {'Other': '0.817', 'Water': '0.716', 'Urban': '0.720', 'Forest': '0.945', 'Agriculture': '0.930', 'Barren': '0.000'}
+Epoch 21/40 | train 0.709/0.920 | val 0.730/0.937
+  per-class {'Other': '0.884', 'Water': '0.833', 'Urban': '0.848', 'Forest': '0.913', 'Agriculture': '0.903', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 22/40 | train 0.717/0.923 | val 0.738/0.946
+  per-class {'Other': '0.897', 'Water': '0.833', 'Urban': '0.819', 'Forest': '0.949', 'Agriculture': '0.930', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 23/40 | train 0.715/0.919 | val 0.729/0.937
+  per-class {'Other': '0.871', 'Water': '0.853', 'Urban': '0.774', 'Forest': '0.933', 'Agriculture': '0.920', 'Barren': '0.025'}
+Epoch 24/40 | train 0.707/0.915 | val 0.735/0.940
+  per-class {'Other': '0.885', 'Water': '0.842', 'Urban': '0.827', 'Forest': '0.912', 'Agriculture': '0.917', 'Barren': '0.024'}
+Epoch 25/40 | train 0.719/0.924 | val 0.731/0.937
+  per-class {'Other': '0.882', 'Water': '0.813', 'Urban': '0.799', 'Forest': '0.941', 'Agriculture': '0.924', 'Barren': '0.028'}
+Epoch 26/40 | train 0.720/0.922 | val 0.737/0.941
+  per-class {'Other': '0.884', 'Water': '0.868', 'Urban': '0.801', 'Forest': '0.930', 'Agriculture': '0.918', 'Barren': '0.023'}
+Epoch 27/40 | train 0.710/0.915 | val 0.741/0.947
+  per-class {'Other': '0.904', 'Water': '0.861', 'Urban': '0.829', 'Forest': '0.932', 'Agriculture': '0.917', 'Barren': '0.000'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 28/40 | train 0.714/0.920 | val 0.745/0.946
+  per-class {'Other': '0.889', 'Water': '0.842', 'Urban': '0.838', 'Forest': '0.947', 'Agriculture': '0.932', 'Barren': '0.020'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 29/40 | train 0.721/0.924 | val 0.736/0.942
+  per-class {'Other': '0.903', 'Water': '0.856', 'Urban': '0.820', 'Forest': '0.922', 'Agriculture': '0.910', 'Barren': '0.008'}
+Epoch 30/40 | train 0.726/0.930 | val 0.737/0.940
+  per-class {'Other': '0.877', 'Water': '0.853', 'Urban': '0.804', 'Forest': '0.941', 'Agriculture': '0.922', 'Barren': '0.024'}
+Epoch 31/40 | train 0.737/0.935 | val 0.747/0.948
+  per-class {'Other': '0.892', 'Water': '0.866', 'Urban': '0.816', 'Forest': '0.956', 'Agriculture': '0.934', 'Barren': '0.018'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 32/40 | train 0.722/0.925 | val 0.755/0.951
+  per-class {'Other': '0.907', 'Water': '0.860', 'Urban': '0.848', 'Forest': '0.947', 'Agriculture': '0.932', 'Barren': '0.034'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 33/40 | train 0.711/0.913 | val 0.751/0.949
+  per-class {'Other': '0.901', 'Water': '0.857', 'Urban': '0.844', 'Forest': '0.943', 'Agriculture': '0.928', 'Barren': '0.032'}
+Epoch 34/40 | train 0.739/0.935 | val 0.743/0.944
+  per-class {'Other': '0.886', 'Water': '0.864', 'Urban': '0.797', 'Forest': '0.947', 'Agriculture': '0.932', 'Barren': '0.034'}
+Epoch 35/40 | train 0.733/0.934 | val 0.753/0.949
+  per-class {'Other': '0.905', 'Water': '0.869', 'Urban': '0.846', 'Forest': '0.928', 'Agriculture': '0.924', 'Barren': '0.046'}
+Epoch 36/40 | train 0.734/0.933 | val 0.749/0.947
+  per-class {'Other': '0.900', 'Water': '0.854', 'Urban': '0.829', 'Forest': '0.936', 'Agriculture': '0.929', 'Barren': '0.046'}
+Epoch 37/40 | train 0.736/0.931 | val 0.746/0.948
+  per-class {'Other': '0.895', 'Water': '0.860', 'Urban': '0.827', 'Forest': '0.952', 'Agriculture': '0.932', 'Barren': '0.008'}
+Epoch 38/40 | train 0.733/0.934 | val 0.754/0.950
+  per-class {'Other': '0.898', 'Water': '0.865', 'Urban': '0.833', 'Forest': '0.955', 'Agriculture': '0.936', 'Barren': '0.039'}
+Epoch 39/40 | train 0.728/0.929 | val 0.755/0.951
+  per-class {'Other': '0.903', 'Water': '0.863', 'Urban': '0.842', 'Forest': '0.947', 'Agriculture': '0.932', 'Barren': '0.042'}
+  -> saved /workspace/landcover_train/train/resunet_oscd_enhanced_best.pt
+Epoch 40/40 | train 0.718/0.924 | val 0.751/0.950
+  per-class {'Other': '0.899', 'Water': '0.868', 'Urban': '0.832', 'Forest': '0.951', 'Agriculture': '0.934', 'Barren': '0.022'}
+Done best 39 0.7550555609235747

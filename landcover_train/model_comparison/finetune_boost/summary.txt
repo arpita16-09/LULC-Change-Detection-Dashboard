@@ -1,0 +1,21 @@
+checkpoint: landcover_train/train/resunet_best.pt
+trained_epoch: 7
+trained_val_miou: 0.5179225870423688
+test_root: /workspace/landcover_train/test/test
+n_samples: 10
+pixel_acc: 0.657327
+mean_iou: 0.487839
+Other: iou=0.362 p=0.536 r=0.528 f1=0.532
+Water: iou=0.768 p=0.857 r=0.881 f1=0.869
+Urban: iou=0.228 p=0.787 r=0.242 f1=0.371
+Forest: iou=0.746 p=0.786 r=0.936 f1=0.855
+Agriculture: iou=0.697 p=0.850 r=0.794 f1=0.821
+Barren: iou=0.126 p=0.130 r=0.822 f1=0.224
+
+confusion_matrix (rows=gt, cols=pred):
+[[273784   6300  29203     18 103999 105579]
+ [  1884  89553   9864      1    369      2]
+ [220259   8083 153034     21  32095 217625]
+ [     0     13      1 408756  27839      0]
+ [ 12832    404   1193 110917 991510 131271]
+ [  2362     95   1164      9  11088  67759]]

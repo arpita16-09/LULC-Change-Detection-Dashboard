@@ -1,0 +1,27 @@
+# Python virtual environment - never push this
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node modules - never push this
+node_modules/
+lulc-dashboard/node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Uploaded satellite images
+backend/uploads/
+
+# Environment files
+.env
+*.env
+
+# VS Code
+.vscode/landcover_train/enhanced/*/images_rgb/

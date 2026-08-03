@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "study_area": "OSCD multi-city (24 AOIs)",
+    "year1": "t1",
+    "year2": "t2",
+    "model": "resunet_oscd_enhanced_best.pt",
+    "task": "LULC transition change detection"
+  },
+  "stats": {
+    "water": 0,
+    "urban": 0,
+    "forest": 0,
+    "agriculture": 0,
+    "bare_soil": 0,
+    "other": 0
+  },
+  "changes": {
+    "forest_to_urban": 0,
+    "agriculture_to_urban": 0,
+    "water_to_urban": 0,
+    "barren_to_urban": 0,
+    "forest_to_agriculture": 0,
+    "agriculture_to_forest": 0,
+    "vegetation_loss": 0
+  }
+}

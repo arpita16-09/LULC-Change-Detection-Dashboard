@@ -1,0 +1,20 @@
+Device=cpu ckpt_epoch=39 val_miou=0.7550555609235747
+Images=/workspace/landcover_train/enhanced/test/images_multiband_npy masks=landcover_train/test/test/masks n=10 tta=True
+bordeaux_t1          acc=0.865 mIoU=0.675
+bordeaux_t2          acc=0.870 mIoU=0.632
+montpellier_t1       acc=0.880 mIoU=0.666
+montpellier_t2       acc=0.884 mIoU=0.647
+nantes_t1            acc=0.882 mIoU=0.658
+nantes_t2            acc=0.908 mIoU=0.699
+pisa_t1              acc=0.876 mIoU=0.644
+pisa_t2              acc=0.916 mIoU=0.690
+valencia_t1          acc=0.868 mIoU=0.645
+valencia_t2          acc=0.864 mIoU=0.651
+--------------------------------------------------
+OVERALL acc=0.885 mIoU=0.675
+  Other        IoU=0.609
+  Water        IoU=0.861
+  Urban        IoU=0.793
+  Forest       IoU=0.903
+  Agriculture  IoU=0.871
+  Barren       IoU=0.011

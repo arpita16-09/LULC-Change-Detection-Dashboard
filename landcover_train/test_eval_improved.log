@@ -1,0 +1,31 @@
+Device: cpu
+Checkpoint: landcover_train/train/resunet_best.pt
+  trained epoch=39 val_mIoU=0.5402591644568929
+Test root: /workspace/landcover_train/test/test
+Test samples: 10
+TTA: True
+------------------------------------------------------------
+bordeaux_t1           acc=0.614  mIoU=0.538  shape=517x461
+bordeaux_t2           acc=0.597  mIoU=0.410  shape=517x461
+montpellier_t1        acc=0.639  mIoU=0.488  shape=426x451
+montpellier_t2        acc=0.678  mIoU=0.489  shape=426x451
+nantes_t1             acc=0.684  mIoU=0.475  shape=522x582
+nantes_t2             acc=0.760  mIoU=0.503  shape=522x582
+pisa_t1               acc=0.682  mIoU=0.520  shape=776x718
+pisa_t2               acc=0.768  mIoU=0.536  shape=776x718
+valencia_t1           acc=0.462  mIoU=0.341  shape=458x476
+valencia_t2           acc=0.555  mIoU=0.443  shape=458x476
+------------------------------------------------------------
+OVERALL pixel accuracy: 0.666
+OVERALL mean IoU:       0.481
+Per-class metrics:
+  Other         IoU=0.387  P=0.602  R=0.520  F1=0.558
+  Water         IoU=0.579  P=0.854  R=0.643  F1=0.733
+  Urban         IoU=0.355  P=0.756  R=0.401  F1=0.524
+  Forest        IoU=0.748  P=0.770  R=0.963  F1=0.856
+  Agriculture   IoU=0.698  P=0.921  R=0.742  F1=0.822
+  Barren        IoU=0.123  P=0.124  R=0.918  F1=0.219
+
+Wrote results to: landcover_train/test_eval_results_improved
+  landcover_train/test_eval_results_improved/per_image_metrics.csv
+  landcover_train/test_eval_results_improved/summary.txt

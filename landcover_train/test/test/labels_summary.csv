@@ -1,0 +1,11 @@
+sample_id,aoi,timepoint,height,width,pct_Other/Unclassified,pct_Water,pct_Urban,pct_Forest,pct_Agriculture,pct_Barren land
+bordeaux_t1,bordeaux,1,517,461,11.79,6.68,32.89,10.7,31.8,6.15
+bordeaux_t2,bordeaux,2,517,461,18.32,7.39,39.09,5.65,27.64,1.91
+montpellier_t1,montpellier,1,426,451,16.73,0.39,23.26,7.87,47.63,4.12
+montpellier_t2,montpellier,2,426,451,22.67,1.02,21.01,6.28,46.41,2.61
+nantes_t1,nantes,1,522,582,16.85,6.9,22.09,15.52,37.19,1.45
+nantes_t2,nantes,2,522,582,25.64,9.28,12.59,13.32,39.1,0.06
+pisa_t1,pisa,1,776,718,12.98,1.13,10.25,20.06,51.37,4.21
+pisa_t2,pisa,2,776,718,14.38,1.53,9.19,26.71,48.06,0.13
+valencia_t1,valencia,1,458,476,18.53,0.01,47.97,2.39,25.63,5.46
+valencia_t2,valencia,2,458,476,22.69,0.65,25.8,7.82,38.61,4.44
