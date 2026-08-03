@@ -14,12 +14,12 @@ This repo has:
 ## What YOU must do (accounts / clicks)
 
 ### 1) Merge or use the feature branch
-Branch: `lulc-transition-dashboard`
+Branch: `main`
 
 Locally:
 ```bash
 git fetch origin
-git checkout lulc-transition-dashboard
+git checkout main
 git lfs pull
 python landcover_train/build_oscd_enhanced_dataset.py   # rebuilds enhanced .npy (gitignored)
 ```
