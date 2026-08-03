@@ -5,10 +5,16 @@ export function apiUrl(path) {
   return `${API_BASE}${path}`;
 }
 
-export async function fetchJSON(path, options) {
+export async function fetchJSON(path, options = {}) {
   let res;
   try {
-    res = await fetch(apiUrl(path), options);
+    res = await fetch(apiUrl(path), {
+      ...options,
+      headers: {
+        ...(options.headers || {}),
+        "ngrok-skip-browser-warning": "true",
+      },
+    });
   } catch (err) {
     throw new Error(
       `Failed to reach API at ${API_BASE}. Start the backend first:\n` +
