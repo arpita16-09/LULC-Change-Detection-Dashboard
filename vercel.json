@@ -1,0 +1,7 @@
+{
+"framework":"vite",
+"installCommand": "npm install --prefix lulc-dashboard",
+"buildCommand": "npm run build --prefix lulc-dashboard",
+"outputDirectory": "lulc-dashboard/dist",
+"rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
